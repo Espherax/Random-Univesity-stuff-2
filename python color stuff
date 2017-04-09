@@ -1,0 +1,17 @@
+# This changes the print color in console, working in pycharm as a charm. 
+class Col:
+    highlight = '\033[100m'
+    pink = '\033[95m'
+    yellow = '\033[93m'
+    red = '\033[91m'
+    black = '\033[0m'
+    bold = '\033[1m'
+
+
+
+print (Col.yellow+("This should be yellow"))
+print (Col.red+("This should be red"))
+print (Col.highlight+("This should be highligted"))
+print (Col.black+("This should be black"))
+print (Col.pink+("This should be pink"))
+print (Col.bold+("This should be bold"))
